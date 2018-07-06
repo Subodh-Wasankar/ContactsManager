@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2020
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManager", "ContactsManager\ContactsManager.csproj", "{6956640D-C33D-4A60-8A3F-7CC65309E274}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContactsManager.Tests", "ContactsManager.Tests\ContactsManager.Tests.csproj", "{42334AFF-F1A0-4158-AD7E-48D2F3CD8E17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6956640D-C33D-4A60-8A3F-7CC65309E274}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6956640D-C33D-4A60-8A3F-7CC65309E274}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6956640D-C33D-4A60-8A3F-7CC65309E274}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6956640D-C33D-4A60-8A3F-7CC65309E274}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42334AFF-F1A0-4158-AD7E-48D2F3CD8E17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42334AFF-F1A0-4158-AD7E-48D2F3CD8E17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42334AFF-F1A0-4158-AD7E-48D2F3CD8E17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42334AFF-F1A0-4158-AD7E-48D2F3CD8E17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FBA9D9CF-D2DD-4DB2-9FAF-549DC3C166EE}
+	EndGlobalSection
+EndGlobal
