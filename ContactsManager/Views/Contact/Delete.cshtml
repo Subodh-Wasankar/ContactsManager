@@ -1,0 +1,22 @@
+﻿@model IEnumerable<ContactsManager.Models.Contact>
+
+@{
+    ViewBag.Title = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<p>
+    Are you sure that you want to delete the entry for
+    <%= Model.FirstName %> <%= Model.LastName %>?
+</p>
+
+    <% using (Html.BeginForm(new { Id = Model.Id }))
+       { %>
+<p>
+    <input type="submit" value="Delete" />
+</p>
+    <% } %>
+
+<div>
+    <%=Html.ActionLink("Back to List", "Index") %>
+</div>
